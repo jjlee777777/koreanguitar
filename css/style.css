@@ -901,4 +901,29 @@ grid-template-columns:1fr;
   line-height: 1.8;
 }
 
+@media (max-width: 768px) {
 
+  .about-page .about-text h2 {
+    font-size: 30px;
+    line-height: 1.35;
+    letter-spacing: 1px;
+  }
+
+  .about-page .about-text p {
+    font-size: 22px;
+    line-height: 1.9;
+    word-break: keep-all;
+  }
+
+  .contact-page h2 {
+    font-size: 46px;
+    line-height: 1.2;
+  }
+
+  .contact-text {
+    font-size: 22px;
+    line-height: 1.8;
+    word-break: keep-all;
+  }
+
+}
