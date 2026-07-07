@@ -89,35 +89,6 @@ nav a:hover {
   overflow: hidden;
 }
 
-/*.hero-bg {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.38)),
-    url("../images/main.jpg") center/cover no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: scale(1.04);
-  z-index: 0;
-}
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle, rgba(0,0,0,0.08), rgba(0,0,0,0.45));
-}
-
-
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  padding: 0 24px;
-  animation: fadeUp 1.5s ease forwards;
-} */
-
  .hero-bg {
   position: absolute;
   inset: 0;
