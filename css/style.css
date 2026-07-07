@@ -384,7 +384,7 @@ nav a:hover {
 }
 
 .page.active {
-  display: flex;
+  display: block;
 }
 
 .sub-page {
@@ -703,7 +703,6 @@ nav a:hover {
 
 .contact-page{
 
-display:flex;
 justify-content:center;
 align-items:center;
 
@@ -714,6 +713,11 @@ linear-gradient(rgba(0,0,0,.78),rgba(0,0,0,.90)),
 url("../images/main.jpg") center/cover;
 
 }
+
+.contact-page.active{
+    display:flex;
+}
+
 
 .contact-inner{
 
