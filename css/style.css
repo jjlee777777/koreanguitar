@@ -109,6 +109,8 @@ nav a:hover {
   z-index: 2;
   text-align: center;
   padding: 0 24px;
+  margin-top: 70px;
+	
   animation: fadeUp 1.5s ease forwards;
 }
 
@@ -358,7 +360,18 @@ nav a:hover {
   display: block;
 }
 
+.hero.active,
+.about-page.active,
+.concert-page.active,
+.cafe-page.active,
+.contact-page.active {
+  display: flex;
+}
+
+
+
 .sub-page {
+	 
   align-items: center;
   justify-content: center;
   padding: 130px 7% 80px;
@@ -425,7 +438,7 @@ nav a:hover {
 .about-page {
   align-items: center;
   justify-content: center;
-  padding: 130px 7% 80px;
+  padding: 180px 7% 80px;
   background: #111;
   color: #f8f6f0;
 }
@@ -685,9 +698,13 @@ url("../images/main.jpg") center/cover;
 
 }
 
+.about-page.active,
+.concert-page.active,
+.cafe-page.active,
 .contact-page.active{
     display:flex;
 }
+
 
 
 .contact-inner{
