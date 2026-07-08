@@ -89,5 +89,22 @@ if (posterImage) {
   }, 6000);
 }
 
+const bgMusic = document.getElementById("bgMusic");
+const musicBtn = document.getElementById("musicBtn");
 
+if (bgMusic && musicBtn) {
+  let isPlaying = false;
+
+  musicBtn.addEventListener("click", () => {
+    if (!isPlaying) {
+      bgMusic.play();
+      musicBtn.textContent = "♪ MUSIC OFF";
+      isPlaying = true;
+    } else {
+      bgMusic.pause();
+      musicBtn.textContent = "♪ MUSIC ON";
+      isPlaying = false;
+    }
+  });
+}
 
